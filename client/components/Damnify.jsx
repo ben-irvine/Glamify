@@ -6,7 +6,7 @@ class Damnify extends React.Component {
 
         return (
             <>
-                <img href=""></img>
+                <img src={this.props.imageURL}></img>
             </>
     )
     }
