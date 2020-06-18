@@ -9,7 +9,6 @@ class App extends React.Component {
   }
 
   handleSubmit = event => {
-    // Don't automatically submit the form
     event.preventDefault()
     this.setState({
         showImage: true
@@ -19,11 +18,6 @@ class App extends React.Component {
     handleChange = event => {
     console.log('change!', this.state)
 
-    // const newState = {}
-    // newState[event.target.name] = event.target.value
-    // this.setState(newState)
-
-    // This ---/\ is the same as this ----\/
     this.setState({
         [event.target.name]: event.target.value
     })
@@ -41,44 +35,3 @@ class App extends React.Component {
 
 export default App
 
-
-
-// handleSubmit = event => {
-//   // Don't automatically submit the form
-//   event.preventDefault()
-//   this.setState({
-//     showImage: true
-//   })
-// }
-
-// handleChange = event => {
-//   console.log('change!', this.state)
-
-//   // const newState = {}
-//   // newState[event.target.name] = event.target.value
-//   // this.setState(newState)
-
-//   // This ---/\ is the same as this ----\/
-//   this.setState({
-//     [event.target.name]: event.target.value
-//   })
-// }
-
-// render() {
-//   return (
-//     <>
-    
-
-//     <form onSubmit={this.handleSubmit}>
-
-//       <label>
-//         Input image link:
-//         <input type="text" name="imageURL" onChange={this.handleChange}/>
-//       </label>
-
-//       <input type="submit" value="Save"/>
-//     </form>
-//     </>
-//   )
-// }
-// }
