@@ -5,20 +5,27 @@ class Form extends React.Component {
 
   render() {
     return (
-      <>
+      <div className='glam'>
       
-      <h1>Glamify!</h1>
+        <h1 className='glam-title'>Glamify 2</h1>
 
-      <form onSubmit={this.props.handleSubmit}>
+        <p className='glam-description'>Post a link to an image you would like to be Glamified!</p>
+        
+        
+        <div className='glam-form'>
+            <form onSubmit={this.props.handleSubmit}>
 
-        <label>
-          Input image link:
-          <input type="text" name="imageURL" onChange={this.props.handleChange}/>
-        </label>
+                <label className='glam-label'>
+                Input image link:
+                </label>
+                    
+                        <input className='glam-input' type="text" name="imageURL" onChange={this.props.handleChange}/>
 
-        <input type="submit" value="Save"/>
-      </form>
-      </>
+                        <input className='glam-save' type="submit" value="Glamify!"/>
+                    
+            </form>
+        </div>
+      </div>
     )
   }
 }
