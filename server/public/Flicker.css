@@ -11,10 +11,42 @@
          animation: fadein 4s infinite;
   }
 
+  .writingRight {
+	display: inline-block;
+	font-family: 'Permanent Marker', cursive;
+	color: #b83838;
+	transform: rotate(45deg);
+    font-size: 40px;
+	-webkit-animation: fadein 6s infinite; 
+    -moz-animation: fadein 6s infinite; 
+     -ms-animation: fadein 6s infinite; 
+      -o-animation: fadein 6s infinite; 
+	animation: fadein 6s infinite;
+	order: 3;
+	
+  }
+
+  .writingLeft {
+	display: inline-block;
+	font-family: 'Permanent Marker', cursive;
+	color: #b83838;
+	transform: rotate(-45deg);
+	font-size: 60px;
+	
+	-webkit-animation: fadein 6s infinite; 
+    -moz-animation: fadein 6s infinite; 
+     -ms-animation: fadein 6s infinite; 
+      -o-animation: fadein 6s infinite; 
+		 animation: fadein 6s infinite;
+		 order: 1;
+  }
+
   @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+	to   { opacity: 1; }
+
 }
+
 
 div > span {
     opacity: 0.15;

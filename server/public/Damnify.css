@@ -8,6 +8,8 @@
   
 }
 
+
+
 .home {
 	box-shadow:inset 0px 1px 3px 0px #181a19;
 	background:linear-gradient(to bottom, #3d4140 5%, #3d3d3d 100%);
@@ -22,7 +24,8 @@
 	font-weight:bold;
 	padding:13px 23px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #2b665e;
+  text-shadow:0px -1px 0px #2b665e;
+  margin: 25px;
 }
 .home:hover {
 	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
@@ -34,6 +37,7 @@ img {
   -webkit-box-shadow: inset -1px -1px 108px 47px rgba(0,0,0,0.75);
       -moz-box-shadow: inset -1px -1px 108px 47px rgba(0,0,0,0.75);
       box-shadow: inset -1px -1px 108px 47px rgba(0,0,0,0.75);
+
 }
 
 .center {
@@ -41,7 +45,9 @@ img {
   align-items: center;
   justify-content: center;
   filter: brightness(70%);
-  
+  display: flex;
+  flex-direction: row;
+
 }
 
 @keyframes fadein {
@@ -68,15 +74,16 @@ img {
     letter-spacing: 8px;
     font-weight: 400;
     /*Create overlap*/
-    max-height: 500px;
+    max-height: 400px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     border-radius: 10px;
-    display: block;
+    display: inline-block;
     line-height: 0;
     position: relative;
+    order: 2;
     
     /*Animation*/
   
