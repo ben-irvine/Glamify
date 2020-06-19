@@ -1,0 +1,63 @@
+.glam {
+    background-color:  #fcebfa;
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.glam-title {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 60pt;
+    color: #F79EEC;
+    order: 1;
+    padding: 100px;
+}
+
+.glam-description {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    order: 2;
+}
+
+.glam-form {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    order: 3;
+    width: 100%;
+    padding: 25px;
+
+}
+
+.glam-label {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    padding: 25px;
+}
+
+.glam-input {
+    background-color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    order: 4;
+    padding: 25px;
+    width: 50%;
+    border: 0pt;
+}
+
+.glam-save {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #FBFBFB;
+    width: 11em;
+    background-color: #F79EEC;
+    /* border-radius: 15px; */
+    order: 5;
+    padding: 25px;
+    border: 0pt;
+    margin: 25px;
+}
