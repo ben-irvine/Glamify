@@ -8,6 +8,28 @@
   
 }
 
+.home {
+	box-shadow:inset 0px 1px 3px 0px #181a19;
+	background:linear-gradient(to bottom, #3d4140 5%, #3d3d3d 100%);
+	background-color:#2e3130;
+	border-radius:14px;
+	border:1px solid #1a1c1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.home:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+
+
 img {
   -webkit-box-shadow: inset -1px -1px 108px 47px rgba(0,0,0,0.75);
       -moz-box-shadow: inset -1px -1px 108px 47px rgba(0,0,0,0.75);
