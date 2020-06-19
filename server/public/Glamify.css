@@ -3,6 +3,7 @@
     font-family: 'Fredoka One', cursive;
     display: flex;
     flex-direction: column;
+    height: 1000px;
 }
 
 .glam-title {
@@ -17,16 +18,18 @@
 .glam-description {
     font-family: 'Fredoka One', cursive;
     text-align: center;
-    color: rgb(99, 99, 99);
+    font-size: 16pt;
+    color: rgb(134, 134, 134);
     order: 2;
 }
 
 .glam-form {
     font-family: 'Fredoka One', cursive;
+    align-items: center;
     text-align: center;
-    color: rgb(99, 99, 99);
+    color: rgb(134, 134, 134);
     order: 3;
-    width: 100%;
+    /* width: 100%; */
     padding: 25px;
 
 }
@@ -34,7 +37,7 @@
 .glam-label {
     font-family: 'Fredoka One', cursive;
     text-align: center;
-    color: rgb(99, 99, 99);
+    color: rgb(134, 134, 134);
     padding: 25px;
 }
 
@@ -51,13 +54,19 @@
 
 .glam-save {
     font-family: 'Fredoka One', cursive;
+    font-size: 1em;
     text-align: center;
     color: #FBFBFB;
-    width: 11em;
+    /* width: 11em; */
     background-color: #F79EEC;
     /* border-radius: 15px; */
     order: 5;
     padding: 25px;
     border: 0pt;
     margin: 25px;
+    cursor: pointer;
+}
+
+.glam-save:hover {
+	background-color: #e282d7;
 }
