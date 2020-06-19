@@ -26,7 +26,7 @@ class App extends React.Component {
 
   render() {
     return (this.state.showImage ? 
-      <Damnify imageURL={this.state.imageURL}/>: 
+      <Damnify imageURL={this.state.imageURL} showImage={this.state.showImage}/>: 
       <Form handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>)
   }
 }

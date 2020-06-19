@@ -18,6 +18,7 @@ class Damnify extends React.Component {
                 <div className="center">
                     <img id='img' src={this.props.imageURL} />
                 </div>
+                <a className="home" href="/">Back to safety!</a>
             </div>
         )
     }
