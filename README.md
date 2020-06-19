@@ -1,5 +1,5 @@
-#Glamify2
+# Glamify2
 
 ## Link
--[Glamify2](http://glamify2.herokuapp.com/)
+[Glamify2](http://glamify2.herokuapp.com/)
 
